@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    background-color: lightskyblue;
+    grid-template-columns: repeat(4, 1fr);
+    border: 3px solid black;
+    padding: 10px;
+    gap: 20px;
+    
+}
+
+.container div{
+    background-color: lime;
+    border: 2px solid red;
+    font-size: 35px;
+    text-align: center;
+    height: 100px;
+    
+}
